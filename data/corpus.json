@@ -1,0 +1,1230 @@
+[
+    {
+        "topic": "Introducing yourself and others",
+        "href": "introducing-yourself-and-others",
+        "conversation": [
+            {
+                "title": "Meeting at a party",
+                "content": [
+                    {
+                        "text": "TODD: Hi—you must be John’s cousin Matt, right? From San Diego?",
+                        "sign": false,
+                        "Chinese": "托德：嗨——你一定是约翰的表弟马特吧？从圣地亚哥来的？"
+                    },
+                    {
+                        "text": "MATT: Correct! I just got in last night.",
+                        "sign": false,
+                        "Chinese": "马特：没错！我昨晚刚到。"
+                    },
+                    {
+                        "text": "TODD: I’m Todd, John’s roommate from Tech. Glad to meet you. I can assure you that I’m not anything like what John has told you.",
+                        "sign": false,
+                        "Chinese": "托德：我是托德，约翰在理工学院的室友。很高兴认识你。我跟你保证，我跟约翰跟你说的那些完全不一样。"
+                    },
+                    {
+                        "text": "MATT: I’m happy to meet you, too—and, yes—I have heard about you! Football player and party animal extraordinaire.",
+                        "sign": false,
+                        "Chinese": "马特：我也很高兴认识你——而且，是的——我听说过你！超级橄榄球手，还是派对达人。"
+                    },
+                    {
+                        "text": "TODD: Football, yes—and as a matter of fact, I do like parties. But tell me more about yourself and what you do in San Diego.",
+                        "sign": false,
+                        "Chinese": "托德：橄榄球，没错——说真的，我也喜欢派对。不过多跟我说说你自己，还有你在圣地亚哥都干什么。"
+                    },
+                    {
+                        "text": "MATT: Well, I’m more (of) a surfer than a football player. You know, San Diego has a fantastic coast—and we can surf all day and then party on the beach at night.",
+                        "sign": false,
+                        "Chinese": "马特：嗯，比起打橄榄球，我更像个冲浪的。你知道，圣地亚哥海岸棒极了——我们能冲一天浪，晚上再在沙滩上狂欢。"
+                    },
+                    {
+                        "text": "TODD: That sounds awesome. How long are you staying?",
+                        "sign": false,
+                        "Chinese": "托德：听起来太酷了。你要待多久？"
+                    },
+                    {
+                        "text": "MATT: Well, I’ll be here for two weeks. John has promised me a nonstop schedule—kind of a mix of sightseeing, meeting his friends, checking out the local scene, and—hopefully—camping in the mountains for a couple of days.",
+                        "sign": false,
+                        "Chinese": "马特：大概两周。约翰给我排了个满满当当的行程——观光、见他朋友、逛本地好玩的，还有——希望能——上山露营几天。"
+                    },
+                    {
+                        "text": "TODD: John’s a good guy—and you can be sure he knows the local scene. He knows everybody in town. I’m sure he’ll show you a good time. And his friends are here to help.",
+                        "sign": false,
+                        "Chinese": "托德：约翰人不错——本地圈子他熟得很。城里谁他都认识。肯定会带你玩得很开心。他朋友们也会帮忙。"
+                    },
+                    {
+                        "text": "MATT: Thanks so much—I really appreciate that. I’m still a bit jet-lagged at the moment but should be in good shape by tomorrow. I’m looking forward to hearing what John has in store for me. . . .",
+                        "sign": false,
+                        "Chinese": "马特：太谢谢了——真的很感激。我现在还有点时差，不过明天应该就没事了。挺期待听听约翰给我安排了什么……"
+                    },
+                    {
+                        "text": "TODD: Don’t worry. We’ll all take good care of you. And don’t be surprised if we show up on your doorstep in San Diego one day, ready for surfing!",
+                        "sign": false,
+                        "Chinese": "托德：别担心，我们都会好好照顾你。哪天我们突然出现在你圣地亚哥家门口、准备去冲浪，你可别吃惊！"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Expressing opinions likes and dislikes",
+        "href": "expressing-opinions-likes-and-dislikes",
+        "conversation": [
+            {
+                "title": "Getting acquainted",
+                "content": [
+                    {
+                        "text": "LAUREN: Hi—you must be Sarah. I can tell from your picture. I’m Lauren. Finally we meet! So we’re going to be roomies this semester!",
+                        "sign": false,
+                        "Chinese": "劳伦：嗨——你一定是莎拉吧，我从照片就认出来了。我是劳伦。终于见面了！这学期我们要当室友啦！"
+                    },
+                    {
+                        "text": "SARAH: Yes, I recognize you from your photo, too! I’m so glad to meet you in person—and I see from your T-shirt that you like baseball. I’m a big fan, too!",
+                        "sign": false,
+                        "Chinese": "莎拉：是啊，我也从你照片认出来了！很高兴见到真人——看你T恤就知道你喜欢棒球。我也是超级粉丝！"
+                    },
+                    {
+                        "text": "LAUREN: Well, the T-shirt was a going-away present from my brother, who’s a baseball player. Look on the back—it has a photo of all the players on his team. They actually won the city championship this summer.",
+                        "sign": false,
+                        "Chinese": "劳伦：这件T恤是我哥哥送的临别礼物，他打棒球。看背面——上面有他们全队的照片。他们今年夏天还赢了市冠军呢。"
+                    },
+                    {
+                        "text": "SARAH: That’s awesome. I tell you, I’m not very athletic, but I love to watch baseball, even if it’s a Little League game. You could say I’m a professional spectator. What about you, do you play a sport?",
+                        "sign": false,
+                        "Chinese": "莎拉：太厉害了。跟你说，我不太擅长运动，但我超爱看棒球，就算是少儿联赛也行。可以说我是专业观众。你呢，你有打球吗？"
+                    },
+                    {
+                        "text": "LAUREN: Yes, I play tennis. As a matter of fact, I have a scholarship, and I’m going to play for the university. Now tell me, what else do you like to do?",
+                        "sign": false,
+                        "Chinese": "劳伦：有，我打网球。其实我拿了奖学金，要代表大学比赛。再说说，你还喜欢做什么？"
+                    },
+                    {
+                        "text": "SARAH: Well—what I like to do best is dance. I’m studying classical ballet, but I also like to dance to popular music.",
+                        "sign": false,
+                        "Chinese": "莎拉：嗯——我最喜欢跳舞。我学古典芭蕾，不过也爱跟着流行音乐跳。"
+                    },
+                    {
+                        "text": "LAUREN: Cool. We have a lot in common. I like to dance, too. Think you’ll be up for checking out the local clubs this weekend?",
+                        "sign": false,
+                        "Chinese": "劳伦：酷。我们共同点还挺多，我也喜欢跳舞。这周末要不要去逛逛本地的俱乐部？"
+                    },
+                    {
+                        "text": "SARAH: Oh, yeah. And the restaurants, too. Speaking of which—are you hungry? I’d love to grab a bite before it gets too late. I’m starving!",
+                        "sign": false,
+                        "Chinese": "莎拉：当然。餐厅也要去。说到这个——你饿吗？我想趁还不太晚先吃点东西。我快饿扁了！"
+                    },
+                    {
+                        "text": "LAUREN: Are you kidding me? I’m always up for going out! How about trying the place up the street? I’m kind of hungry for a good hamburger.",
+                        "sign": false,
+                        "Chinese": "劳伦：你开玩笑吧？我随时都能出门！要不要试试街那头那家？我特想吃个像样的汉堡。"
+                    },
+                    {
+                        "text": "Later:",
+                        "sign": true,
+                        "Chinese": "稍后："
+                    },
+                    {
+                        "text": "SARAH: Lauren, what do you think of our room?",
+                        "sign": false,
+                        "Chinese": "莎拉：劳伦，你觉得我们房间怎么样？"
+                    },
+                    {
+                        "text": "LAUREN: To be honest with you, I really can’t stand that dark color on the walls. It’s, like, really depressing. I prefer light colors. Plus, I’d like to change the rug and the bedspreads. Do you like them?",
+                        "sign": false,
+                        "Chinese": "劳伦：说实话，墙上那个深颜色我真受不了。看着就压抑。我更喜欢浅色。另外地毯和床罩我也想换。你喜欢它们吗？"
+                    },
+                    {
+                        "text": "SARAH: No, I agree with you. They’re horrible. With a couple of coats of paint and a few small changes, we’ll make this room comfortable and cozy. Everybody will want to hang out here.",
+                        "sign": false,
+                        "Chinese": "莎拉：不喜欢，我同意你。太难看了。刷两遍漆，再改改小地方，这房间就能又舒服又温馨。大家都会想来这儿待着。"
+                    },
+                    {
+                        "text": "LAUREN: Man, I’m so relieved! I think we’re really going to get along. I’m going to call my mom right now and tell her how cool my new roomie is.",
+                        "sign": false,
+                        "Chinese": "劳伦：天哪，我总算松了口气！我觉得我们会相处得很好。我现在就给妈妈打电话，跟她说我新室友有多酷。"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Describing people places and things",
+        "href": "describing-people-places-and-things",
+        "conversation": [
+            {
+                "title": "Talking about roommates",
+                "content": [
+                    {
+                        "text": "TRAN: So, Michael, what’s your new roommate like?",
+                        "sign": false,
+                        "Chinese": "特兰：迈克尔，你新室友怎么样？"
+                    },
+                    {
+                        "text": "MICHAEL: Well, if you have all day, I’ll describe him for you. He’s quite the character.",
+                        "sign": false,
+                        "Chinese": "迈克尔：要是你有一整天时间，我可以好好给你描述一番。他可真是个人物。"
+                    },
+                    {
+                        "text": "TRAN: I don’t have all day, dude—but basically—do you get along with him?",
+                        "sign": false,
+                        "Chinese": "特兰：哥们，我可没一整天——简单说——你们合得来吗？"
+                    },
+                    {
+                        "text": "MICHAEL: Actually, yeah—but that’s only because we hardly ever see each other. The guy sleeps all day. Sometimes he gets up just to go to his classes, and then he comes back to the room and goes back to bed. Then he’ll get up at midnight and study all night.",
+                        "sign": false,
+                        "Chinese": "迈克尔：其实还行——不过那是因为我们几乎见不着面。这家伙白天全睡。有时就起来上上课，然后回屋继续睡。半夜再爬起来学一整夜。"
+                    },
+                    {
+                        "text": "TRAN: Really? You don’t eat together, then?",
+                        "sign": false,
+                        "Chinese": "特兰：真的？那你们不一起吃饭喽？"
+                    },
+                    {
+                        "text": "MICHAEL: The truth is, I don’t even know when he eats, or where.",
+                        "sign": false,
+                        "Chinese": "迈克尔：说实话，我连他什么时候吃、在哪儿吃都不知道。"
+                    },
+                    {
+                        "text": "TRAN: Then at least he doesn’t leave a mess in the kitchen.",
+                        "sign": false,
+                        "Chinese": "特兰：那至少他不会把厨房搞得一团糟。"
+                    },
+                    {
+                        "text": "MICHAEL: No! The guy is incredibly neat. He actually leaves the bathroom clean every day—and he doesn’t seem to have dirty clothes. He’s like a ghost.",
+                        "sign": false,
+                        "Chinese": "迈克尔：对！这人出奇地整洁。他每天都会把卫生间收拾干净——好像也没什么脏衣服。跟幽灵似的。"
+                    },
+                    {
+                        "text": "TRAN: Man, I think you have the perfect roommate!",
+                        "sign": false,
+                        "Chinese": "特兰：兄弟，我觉得你捡到完美室友了！"
+                    },
+                    {
+                        "text": "MICHAEL: What about yours? What’s he like?",
+                        "sign": false,
+                        "Chinese": "迈克尔：你的呢？他怎么样？"
+                    },
+                    {
+                        "text": "TRAN: Well, he’s the exact opposite of yours. We’re a lot alike, and we’re together a lot. I mean, we have two classes together and we’re in the same fraternity, so we’re really good friends.",
+                        "sign": false,
+                        "Chinese": "特兰：跟你的正好相反。我们很像，也老待在一起。我们有两门课一块上，还在同一个兄弟会，所以关系特别好。"
+                    },
+                    {
+                        "text": "MICHAEL: Sounds to me like you have the ideal roommate!",
+                        "sign": false,
+                        "Chinese": "迈克尔：听起来你才有理想室友啊！"
+                    },
+                    {
+                        "text": "TRAN: Well, yes—and no. Mine is a disaster in the house. In the first place, he always leaves a mess in the kitchen; he doesn’t wash the dishes or take out the trash. Plus, he throws his clothes all over the place. Not to mention how he leaves the bathroom . . .",
+                        "sign": false,
+                        "Chinese": "特兰：嗯……也是也不是。他在家就是个灾难。首先厨房老被他弄得乱七八糟；不洗碗，也不倒垃圾。衣服还到处扔。卫生间就更别提了……"
+                    },
+                    {
+                        "text": "MICHAEL: Come on, Eric—he sounds a lot like you. No wonder you get along so well!",
+                        "sign": false,
+                        "Chinese": "迈克尔：得了吧埃里克——听着跟你自己挺像。难怪你们这么合得来！"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Striking up a conversation",
+        "href": "striking-up-a-conversation",
+        "conversation": [
+            {
+                "title": "Running into a friend",
+                "content": [
+                    {
+                        "text": "NICOLE: Hi, Jen. What’s up? I haven’t seen you for ages.",
+                        "sign": false,
+                        "Chinese": "妮可：嗨，珍。最近怎么样？好久没见你了。"
+                    },
+                    {
+                        "text": "JEN: Nicole! Fancy running into you here. Do you have time for a cup of coffee?",
+                        "sign": false,
+                        "Chinese": "珍：妮可！居然在这儿碰到你。有空喝杯咖啡吗？"
+                    },
+                    {
+                        "text": "NICOLE: Sure. We really need to catch up. Do you work around here?",
+                        "sign": false,
+                        "Chinese": "妮可：当然。我们真该好好聊聊了。你在这附近上班？"
+                    },
+                    {
+                        "text": "JEN: At the dress shop across the street. I’m a sales assistant for the time being, but I’m hoping they’ll promote me to buyer after I have some experience on the floor.",
+                        "sign": false,
+                        "Chinese": "珍：在街对面那家服装店。眼下先当销售助理，等有了卖场经验，希望能升成采购。"
+                    },
+                    {
+                        "text": "NICOLE: Oh—I love that shop. Their clothes are so trendy and different from the run of the mill. You look fantastic—I’ll bet their sales have gone up since you started working there.",
+                        "sign": false,
+                        "Chinese": "妮可：哦——我超爱那家店。衣服又时髦，又不落俗套。你看起来棒极了——我敢说你一去，销量肯定涨了。"
+                    },
+                    {
+                        "text": "JEN: Well—I try! The thing is, I enjoy the work, because I love the clothes, and I like helping people find what works for them. It’s actually quite fulfilling.",
+                        "sign": false,
+                        "Chinese": "珍：哈哈——我尽量！关键是，我喜欢这份工作，因为我爱这些衣服，也喜欢帮人找到适合自己的。其实挺有成就感的。"
+                    },
+                    {
+                        "text": "NICOLE: Good for you. And I think the idea of becoming a buyer is great. Before you know it, you’ll be working on your own designs. I remember how you used to dream of being a fashion designer.",
+                        "sign": false,
+                        "Chinese": "妮可：真为你高兴。我觉得当采购这个想法很棒。一不留神，你就该开始做自己的设计了。我还记得你以前梦想当时装设计师。"
+                    },
+                    {
+                        "text": "JEN: Yeah, and I think this is a step in the right direction. Now, what are you up to? The last I heard, you were about to move across country. I hope you’re back to stay!",
+                        "sign": false,
+                        "Chinese": "珍：是啊，我觉得这是往对的方向迈了一步。你呢，最近在忙什么？上次听说你要搬去外州。希望你是回来常住的！"
+                    },
+                    {
+                        "text": "NICOLE: As a matter of fact, I just got back a couple of months ago. I’m glad I went, because now I know I really want to be here. I’m working as a waitress right now but am hoping to get a teaching job. I’ve applied to most of the local school districts so have my fingers crossed I’ll get something this fall.",
+                        "sign": false,
+                        "Chinese": "妮可：其实我几个月前刚回来。去一趟也好，现在我清楚自己真正想待在这儿。眼下先当服务员，希望能找到教职。本地学区大多都投了简历，希望今年秋天能有消息。"
+                    },
+                    {
+                        "text": "JEN: What do you want to teach? I’ve heard there are openings for high school teachers in Howard County.",
+                        "sign": false,
+                        "Chinese": "珍：你想教什么？我听说霍华德县高中有空缺。"
+                    },
+                    {
+                        "text": "NICOLE: No way! I haven’t even applied there. I’ll do it as soon as I get home. Man, that’ll be awesome if they need a biology teacher. Thanks for the tip! Which reminds me—waiting tables isn’t all bad. On weekends I get pretty good tips. And banking on the info you just gave me, I think I’ll follow you back to work and splurge on a new dress!",
+                        "sign": false,
+                        "Chinese": "妮可：不会吧！我还没投那儿。回家马上投。天哪，要是他们需要生物老师就太棒了。谢谢你提醒！对了——端盘子也没那么糟，周末小费挺不错。冲着你刚给的情报，我想跟着你回店，奢侈一把买条新裙子！"
+                    },
+                    {
+                        "text": "JEN: Great. I already have in mind some things for you to try on.",
+                        "sign": false,
+                        "Chinese": "珍：太好了。我已经想好几件让你试了。"
+                    },
+                    {
+                        "text": "Later:",
+                        "sign": true,
+                        "Chinese": "稍后："
+                    },
+                    {
+                        "text": "NICOLE: Wow. I love this one. I guess I’m getting ahead of myself, but I have a feeling this is just what I need for the interview with the principal.",
+                        "sign": false,
+                        "Chinese": "妮可：哇，这件我太喜欢了。可能有点想太远，但我感觉面试校长就该穿这个。"
+                    },
+                    {
+                        "text": "JEN: And for the first day of school!",
+                        "sign": false,
+                        "Chinese": "珍：开学第一天也能穿！"
+                    },
+                    {
+                        "text": "NICOLE: Thanks so much for your help. Now I’m really pumped! I’m so happy I ran into you today.",
+                        "sign": false,
+                        "Chinese": "妮可：太谢谢你帮忙了。我现在干劲十足！今天碰到你真开心。"
+                    },
+                    {
+                        "text": "JEN: Me, too. Let’s make sure we get together more often.",
+                        "sign": false,
+                        "Chinese": "珍：我也是。以后一定要多见见面。"
+                    },
+                    {
+                        "text": "NICOLE: Yeah. I promise I’ll keep in touch.",
+                        "sign": false,
+                        "Chinese": "妮可：嗯。我保证会保持联系。"
+                    },
+                    {
+                        "text": "JEN: Take care, and let me know what happens. Bye for now.",
+                        "sign": false,
+                        "Chinese": "珍：保重，有消息告诉我。先再见啦。"
+                    },
+                    {
+                        "text": "NICOLE: Bye—and thanks again!",
+                        "sign": false,
+                        "Chinese": "妮可：再见——再次谢谢你！"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Making dates and appointments",
+        "href": "making-dates-and-appointments",
+        "conversation": [
+            {
+                "title": "Making an appointment with a doctor",
+                "content": [
+                    {
+                        "text": "RECEPTIONIST: Drs. Manning and Sharp. How can I help you?",
+                        "sign": false,
+                        "Chinese": "前台：曼宁医生与夏普医生诊所。请问有什么可以帮您？"
+                    },
+                    {
+                        "text": "LISA: Hello. My name is Lisa Peterson. I’d like to make an appointment to see Dr. Sharp, hopefully sometime next week.",
+                        "sign": false,
+                        "Chinese": "莉萨：你好，我叫莉萨·彼得森。想预约夏普医生，最好下周能看。"
+                    },
+                    {
+                        "text": "RECEPTIONIST: And what is it you want to see him about?",
+                        "sign": false,
+                        "Chinese": "前台：请问您是因为什么就诊？"
+                    },
+                    {
+                        "text": "LISA: I need a complete physical for a new job I’m about to take.",
+                        "sign": false,
+                        "Chinese": "莉萨：我要入职新工作，需要做一次全面体检。"
+                    },
+                    {
+                        "text": "RECEPTIONIST: Do you have a form that has to be filled out?",
+                        "sign": false,
+                        "Chinese": "前台：您有需要填写的表格吗？"
+                    },
+                    {
+                        "text": "LISA: Yes, I do—and it looks like I’ll need a pretty thorough exam.",
+                        "sign": false,
+                        "Chinese": "莉萨：有——看起来检查会相当全面。"
+                    },
+                    {
+                        "text": "RECEPTIONIST: Can you scan it and email it to me? That way I’ll know how much time to allot for your appointment.",
+                        "sign": false,
+                        "Chinese": "前台：能扫描后发邮件给我吗？这样我好安排您预约需要多长时间。"
+                    },
+                    {
+                        "text": "LISA: Sure. Can you give me your email address?",
+                        "sign": false,
+                        "Chinese": "莉萨：可以。能告诉我您的电子邮箱吗？"
+                    },
+                    {
+                        "text": "RECEPTIONIST: It’s on our website: maries@rhc.com.",
+                        "sign": false,
+                        "Chinese": "前台：在我们网站上：maries@rhc.com。"
+                    },
+                    {
+                        "text": "LISA: Good. I’ll send it to you right away. Will you call me back when you get it?",
+                        "sign": false,
+                        "Chinese": "莉萨：好。我马上发给您。收到后会回电给我吗？"
+                    },
+                    {
+                        "text": "RECEPTIONIST: Right.",
+                        "sign": false,
+                        "Chinese": "前台：好的。"
+                    },
+                    {
+                        "text": "Later:",
+                        "sign": true,
+                        "Chinese": ""
+                    },
+                    {
+                        "text": "RECEPTIONIST: Hello, Lisa. This is Dr. Sharp’s office. I see you’re going to need an hour-long appointment, and Dr. Sharp won’t be able to do that for at least another month. I could give you an appointment with Dr. Manning next Thursday, though, at 1 p.m. Would you like to take that?",
+                        "sign": false,
+                        "Chinese": "前台：你好，莉萨。这里是夏普医生诊所。看下来您需要一小时的预约，夏普医生至少一个月内排不出。不过下周四下午一点可以给您约曼宁医生。您要这个时间吗？"
+                    },
+                    {
+                        "text": "LISA: Um . . . yes, that sounds fine. Is there anything I should do to prepare for the exam?",
+                        "sign": false,
+                        "Chinese": "莉萨：嗯……可以，听起来没问题。体检前我需要做什么准备吗？"
+                    },
+                    {
+                        "text": "RECEPTIONIST: Yes. I know this will be difficult, but you mustn’t eat or drink anything after midnight the night before. I wish I could give you an appointment earlier in the day, but we don’t have any other openings.",
+                        "sign": false,
+                        "Chinese": "前台：要。我知道会比较难，但前一天午夜之后不能吃也不能喝。我也希望能给您约得更早，但没有别的空档了。"
+                    },
+                    {
+                        "text": "LISA: OK. But if there is a cancellation earlier in the day, please let me know. I’d much rather come in early in the morning.",
+                        "sign": false,
+                        "Chinese": "莉萨：好。不过要是当天早些时候有人取消，请告诉我。我更想一大早就去。"
+                    },
+                    {
+                        "text": "RECEPTIONIST: Of course.",
+                        "sign": false,
+                        "Chinese": "前台：当然。"
+                    },
+                    {
+                        "text": "LISA: Thanks very much. Good-bye.",
+                        "sign": false,
+                        "Chinese": "莉萨：非常感谢。再见。"
+                    }
+                ]
+            },
+            {
+                "title": "Changing a lunch date",
+                "content": [
+                    {
+                        "text": "LISA: Hi, Maria. It’s Lisa. Listen, I’m not going to be able to have lunch with you next Thursday. I have to have a physical for my new job, and it’s on Thursday at one o’clock—and it’s in Alexandria. I’m really sorry. Can we make it another day?",
+                        "sign": false,
+                        "Chinese": "莉萨：嗨，玛丽亚，我是莉萨。听着，下周四没法跟你吃午饭了。新工作要体检，周四一点，还在亚历山大。真抱歉。我们能改一天吗？"
+                    },
+                    {
+                        "text": "MARIA: No problem. How about Friday at 12:30?",
+                        "sign": false,
+                        "Chinese": "玛丽亚：没问题。周五十二点半怎么样？"
+                    },
+                    {
+                        "text": "LISA: Oh dear, I can’t do that, either. Would Wednesday work for you?",
+                        "sign": false,
+                        "Chinese": "莉萨：哎呀，那天也不行。周三可以吗？"
+                    },
+                    {
+                        "text": "MARIA: Look, we’re going to have to make it the following week. We’ve both got too much on our plates right now. Let’s say Thursday, the twenty-fourth, at one o’clock. OK?",
+                        "sign": false,
+                        "Chinese": "玛丽亚：这样吧，我们只能改到下周了。眼下双方都太忙。就定二十四号周四下午一点，行吗？"
+                    },
+                    {
+                        "text": "LISA: Perfect. We’ll have a lot to talk about by then!",
+                        "sign": false,
+                        "Chinese": "莉萨：完美。到时候我们一定有一堆话要聊！"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Expressing wants and needs",
+        "href": "expressing-wants-and-needs",
+        "conversation": [
+            {
+                "title": "Looking for a new apartment",
+                "content": [
+                    {
+                        "text": "RECEPTIONIST: Good morning! How can I help you?",
+                        "sign": false,
+                        "Chinese": "前台：早上好！有什么可以帮您？"
+                    },
+                    {
+                        "text": "TAHA: I’d like to rent an apartment in this neighborhood and wonder if you can help me.",
+                        "sign": false,
+                        "Chinese": "塔哈：我想在这片社区租公寓，不知道您能不能帮忙。"
+                    },
+                    {
+                        "text": "RECEPTIONIST: You need to talk to Salima—she’s our go-to agent for apartment rentals. Here, I’ll take you to her office.",
+                        "sign": false,
+                        "Chinese": "前台：您得找萨利马——公寓出租归她负责。来，我带您去她办公室。"
+                    },
+                    {
+                        "text": "SALIMA: Hello, I’m Salima. Have a seat and tell me what kind of apartment you’re looking for. Is it just for you?",
+                        "sign": false,
+                        "Chinese": "萨利马：你好，我是萨利马。请坐，跟我说说你想找什么样的公寓。就你一个人住吗？"
+                    },
+                    {
+                        "text": "TAHA: Well, that depends on what’s available. I’d really rather live alone, but if I don’t see anything that works, I could share a bigger place with a friend of mine.",
+                        "sign": false,
+                        "Chinese": "塔哈：那得看有什么房源。我其实更想自己住，但要是没有合适的，也可以跟朋友合租大一点的。"
+                    },
+                    {
+                        "text": "SALIMA: OK. First, tell me what you have in mind.",
+                        "sign": false,
+                        "Chinese": "萨利马：好。先说说你心里想要的。"
+                    },
+                    {
+                        "text": "TAHA: The most important thing is the location. I want to be in the city, preferably in this neighborhood, so I can walk to the university and to the metro station. I don’t have a car.",
+                        "sign": false,
+                        "Chinese": "塔哈：最重要的是地段。我想住城里，最好就在这片，能走到大学和地铁站。我没有车。"
+                    },
+                    {
+                        "text": "SALIMA: OK, then you don’t mind if there’s no parking space.",
+                        "sign": false,
+                        "Chinese": "萨利马：那没有车位你也不介意。"
+                    },
+                    {
+                        "text": "TAHA: Exactly. But I want a secure building. I also want it to have a living room, a dining room, one bedroom, and, of course, a modern kitchen and bathroom. I don’t really need all the bells and whistles, but I would like to have a balcony.",
+                        "sign": false,
+                        "Chinese": "塔哈：没错。但我想要安保好的楼。还要有客厅、餐厅、一间卧室，当然还有像样的厨房和卫生间。花里胡哨的倒不必，不过想要个阳台。"
+                    },
+                    {
+                        "text": "SALIMA: And what is your budget? I mean, what monthly rent are you thinking about, including utilities?",
+                        "sign": false,
+                        "Chinese": "萨利马：预算呢？我是说，算上水电，你心里的月租大概多少？"
+                    },
+                    {
+                        "text": "TAHA: I’m hoping to find something for about $1000 a month.",
+                        "sign": false,
+                        "Chinese": "塔哈：希望能找到一个月大概一千美元左右的。"
+                    },
+                    {
+                        "text": "SALIMA: Look, I can tell you right now there are no decent apartments in this area under $1,500 a month—and none of them have dining rooms or balconies. There are modern, secure buildings that are actually near the metro—but they’re at least six miles outside of the city.",
+                        "sign": false,
+                        "Chinese": "萨利马：跟你直说吧，这片像样的公寓没有低于一千五百美元一个月的——而且都没有餐厅或阳台。也有现代、安保好、离地铁近的楼——但至少在城外六英里。"
+                    },
+                    {
+                        "text": "TAHA: There’s no way I’m going to live way out there. Do you think you could find a two-bedroom place closer in for, say, $2,000 a month? Something I could share with my friend?",
+                        "sign": false,
+                        "Chinese": "塔哈：那么远我绝对不住。你觉得能不能在更近的地方找到两居室，比如两千美元一个月？可以跟朋友合租的那种？"
+                    },
+                    {
+                        "text": "SALIMA: Let me do a little research this morning and see what I can find. I’m not going to tell you that it’s impossible, but I can’t promise anything, either. Give me a couple of hours to see what’s out there. If I find anything worthwhile, we can go have a look this afternoon. In the meantime, I need you to fill out this form so I have your contact information. As a matter of fact, both you and your friend will have to fill out an application in order to be approved as tenants. I’m assuming you want a one-year lease. Is that right? Oh, one more thing: you don’t have a pet, do you?",
+                        "sign": false,
+                        "Chinese": "萨利马：今天上午我先查查，看能找到什么。不敢说完全没可能，但也没法打包票。给我两小时看看行情。要是有值得看的，下午我们可以去看房。同时请你填这张表，留下联系方式。其实你和朋友都得填申请，才能通过租客审核。我猜你想签一年约，对吧？对了，还有一件事：你没有养宠物吧？"
+                    },
+                    {
+                        "text": "TAHA: Yes, I’m willing to sign a one-year lease, and no, I don’t have a pet. And I’ll make sure my friend gets rid of his dog. He can leave it with his family—they have a place in the country. I’d better go give him a heads-up right now.",
+                        "sign": false,
+                        "Chinese": "塔哈：对，我愿意签一年约；没有，我不养宠物。我会让朋友把狗送回家里——他们乡下有房子。我最好现在就去跟他打个招呼。"
+                    },
+                    {
+                        "text": "SALIMA: Good. Be sure both of you bring your financial and credit information with you.",
+                        "sign": false,
+                        "Chinese": "萨利马：好。你们俩都记得带上财务和信用资料。"
+                    },
+                    {
+                        "text": "TAHA: Right. We’ll see you at noon, then. Thank you very much.",
+                        "sign": false,
+                        "Chinese": "塔哈：好。那我们中午见。非常感谢。"
+                    },
+                    {
+                        "text": "SALIMA: See you later.",
+                        "sign": false,
+                        "Chinese": "萨利马：再见。"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Making requests and offers",
+        "href": "making-requests-and-offers",
+        "conversation": [
+            {
+                "title": "Helping a classmate",
+                "content": [
+                    {
+                        "text": "JIM: Hey, buddy, can I ask you a favor?",
+                        "sign": false,
+                        "Chinese": "吉姆：嘿，哥们，能帮我个忙吗？"
+                    },
+                    {
+                        "text": "ALI: Sure—what can I do for you?",
+                        "sign": false,
+                        "Chinese": "阿里：当然——需要我做什么？"
+                    },
+                    {
+                        "text": "JIM: I wonder if you’d be willing to lend me your biology notes. I missed a couple of classes when I was sick, and now I’m totally lost.",
+                        "sign": false,
+                        "Chinese": "吉姆：能不能把你的生物笔记借我？我生病缺了几节课，现在完全跟不上。"
+                    },
+                    {
+                        "text": "ALI: OK. I’ll send you a copy of my notes from last week, and then come to your place and go over the lessons with you. I’m acing biology this semester, so I’m sure I can get you back on track.",
+                        "sign": false,
+                        "Chinese": "阿里：行。我把上周笔记发一份给你，然后再去你家一起过一遍课。我这学期生物学得挺好，肯定能帮你赶上。"
+                    },
+                    {
+                        "text": "Later:",
+                        "sign": true,
+                        "Chinese": ""
+                    },
+                    {
+                        "text": "JIM: Oh, man, that is a load off my shoulders. I can’t thank you enough.",
+                        "sign": false,
+                        "Chinese": "吉姆：天哪，这下我总算松口气了。太谢谢你了。"
+                    },
+                    {
+                        "text": "ALI: Glad to help. As a matter of fact, I have a favor to ask of you.",
+                        "sign": false,
+                        "Chinese": "阿里：乐意帮忙。其实我也有事想求你。"
+                    },
+                    {
+                        "text": "JIM: Oh yeah? Don’t tell me you need more advice about your girlfriend!",
+                        "sign": false,
+                        "Chinese": "吉姆：哦？别告诉我又是关于你女朋友的建议！"
+                    },
+                    {
+                        "text": "ALI: Well, not exactly. It’s that her sister is coming up for the weekend, and I need to find her a date. Any chance you’d go out with her on Saturday night? We’d all four go to the theater and then out to eat.",
+                        "sign": false,
+                        "Chinese": "阿里：嗯，不完全是。是她妹妹这周末要来，我得给她找个约会对象。周六晚上你有没有可能跟她出去？我们四个人一起看戏，然后再吃饭。"
+                    },
+                    {
+                        "text": "JIM: Look, I already agreed to go to the movies with Ben. But how about if I invite her to go to the movies with us instead? Of course, afterward we’d grab a bite to eat, but it won’t be anything fancy.",
+                        "sign": false,
+                        "Chinese": "吉姆：这样，我已经答应跟本去看电影了。不过我能不能请她一起跟我们去看电影？当然看完也会去吃点东西，但不会很讲究。"
+                    },
+                    {
+                        "text": "ALI: That sounds great to me. Let me see what Jessica thinks about it, and I’ll get back to you ASAP.",
+                        "sign": false,
+                        "Chinese": "阿里：对我来说挺好。我先问问杰西卡怎么想，尽快回你。"
+                    },
+                    {
+                        "text": "JIM: Good. And by the way, thanks again for the help with biology. I think I’m on top of it now.",
+                        "sign": false,
+                        "Chinese": "吉姆：好。对了，生物那事再次谢谢你。我觉得我现在跟上了。"
+                    },
+                    {
+                        "text": "ALI: No problem. Don’t hesitate to call me if you have any questions.",
+                        "sign": false,
+                        "Chinese": "阿里：没事。有问题随时打电话给我。"
+                    },
+                    {
+                        "text": "JIM: Thanks, buddy. See you later.",
+                        "sign": false,
+                        "Chinese": "吉姆：谢了，哥们。回头见。"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Expressing doubts and uncertainty",
+        "href": "expressing-doubts-and-uncertainty",
+        "conversation": [
+            {
+                "title": "Advice to a friend",
+                "content": [
+                    {
+                        "text": "ZOYA: Hi, Katie—I’m calling you to cry on your shoulder. Do you mind if I come over? I really need to talk to you.",
+                        "sign": false,
+                        "Chinese": "佐娅：嗨，凯蒂——打电话来跟你诉诉苦。我能过去吗？真的很想跟你聊聊。"
+                    },
+                    {
+                        "text": "KEISHA: Of course I don’t mind; come over. I’ll make a pot of tea. Pat, what’s the matter?",
+                        "sign": false,
+                        "Chinese": "凯莎：当然可以，过来吧。我沏壶茶。帕特，怎么了？"
+                    },
+                    {
+                        "text": "ZOYA: It’s just that everything is wrong with my life. In the first place, there are so many problems at work. My boss is really out to get me. He’s on my case for every little thing. Lately I can’t do anything that pleases him. Plus, he makes me so nervous that I’m beginning to make unnecessary mistakes.",
+                        "sign": false,
+                        "Chinese": "佐娅：就是觉得生活处处不对劲。首先工作一堆问题。老板存心为难我，鸡毛蒜皮都要盯着我。最近我做什么他都不满意。而且他弄得我好紧张，开始犯一些本不该犯的错。"
+                    },
+                    {
+                        "text": "KEISHA: So, what’s the reason for all that?",
+                        "sign": false,
+                        "Chinese": "凯莎：那到底是因为什么？"
+                    },
+                    {
+                        "text": "ZOYA: It’s probably because he has problems at home. But that doesn’t give him the right to take it all out on me, does it?",
+                        "sign": false,
+                        "Chinese": "佐娅：可能因为他家里有事。可那也不该拿我出气，对吧？"
+                    },
+                    {
+                        "text": "KEISHA: It’s just the opposite. It’s at work where he ought to seek a little peace so he can work out his personal problems at home. At least that’s what I think.",
+                        "sign": false,
+                        "Chinese": "凯莎：恰恰相反。他更该在工作里找点平静，好把家里的私事理顺。至少我是这么想的。"
+                    },
+                    {
+                        "text": "ZOYA: I have the impression that nobody is really happy. The situation at my house doesn’t exactly cheer me up either. You know what? Those two guys I share the house with don’t have a clue about how to keep it clean. They don’t lift a finger to help me. Last night I spent two hours cleaning the kitchen while they pigged out on pizza and watched TV. I’m sick and tired of their behavior. But that’s not the worst! As if that weren’t enough, Brad refuses to talk to me. Like out of the blue he’s decided he wants his space. I really feel like throwing in the towel.",
+                        "sign": false,
+                        "Chinese": "佐娅：我觉得好像没人真正开心。家里的情况也振奋不了我。你知道吗？跟我合租的那两个人完全不懂怎么保持干净。他们一根手指都不肯帮我。昨晚我花两小时收拾厨房，他们却边狂吃披萨边看电视。我受够他们了。可这还不是最糟的！雪上加霜的是，布拉德不肯跟我说话。就像突然间他决定要自己的空间。我真想直接认输算了。"
+                    },
+                    {
+                        "text": "KEISHA: Calm down, Zoya, and let’s look at one thing at a time. I don’t think things are as bad as they seem right now. For a start, why don’t we make a list of the positive things in your life? That way, you’ll realize what your strengths are. Then we’ll make a plan to begin changing the things that aren’t working for you. You shouldn’t let yourself get depressed.",
+                        "sign": false,
+                        "Chinese": "凯莎：冷静点，佐娅，我们一件一件来看。我觉得事情没你现在感觉的那么糟。先列一列生活里积极的事吧？这样你会看到自己还有哪些优势。然后再做个计划，开始改那些不顺的地方。别让自己陷进抑郁里。"
+                    },
+                    {
+                        "text": "ZOYA: Thanks, Keisha. You know, I already feel much better. You really know how to cheer me up.",
+                        "sign": false,
+                        "Chinese": "佐娅：谢谢你，凯莎。说实话，我已经好多了。你真会给我打气。"
+                    },
+                    {
+                        "text": "KEISHA: I care about you. After all, you are my best friend—and have been from the get-go. I know I can count on you for good advice from time to time.",
+                        "sign": false,
+                        "Chinese": "凯莎：我在乎你。毕竟你是我最好的朋友——从一开始就是。我也知道，有时我能指望你给我好建议。"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Talking about future events",
+        "href": "talking-about-future-events",
+        "conversation": [
+            {
+                "title": "Scheduled events",
+                "content": [
+                    {
+                        "text": "RAJ: What time does the movie start?",
+                        "sign": false,
+                        "Chinese": "拉杰：电影几点开始？"
+                    },
+                    {
+                        "text": "INES: It starts at 7:30, and ends at 9:45.",
+                        "sign": false,
+                        "Chinese": "伊内丝：七点半开始，九点四十五结束。"
+                    },
+                    {
+                        "text": "RAJ: Good. We can go on the bus, and get back home before it’s too dark. Is there a bus stop near your house?",
+                        "sign": false,
+                        "Chinese": "拉杰：好。我们可以坐公交去，天黑前就能回家。你家附近有公交站吗？"
+                    },
+                    {
+                        "text": "INES: Yes. It stops on the corner every fifteen minutes.",
+                        "sign": false,
+                        "Chinese": "伊内丝：有。每十五分钟在拐角停一班。"
+                    },
+                    {
+                        "text": "RAJ: Perfect. I’m looking forward to seeing this movie.",
+                        "sign": false,
+                        "Chinese": "拉杰：完美。我很期待看这部电影。"
+                    }
+                ]
+            },
+            {
+                "title": "Plans for the very near future",
+                "content": [
+                    {
+                        "text": "JENNY: What are you doing tomorrow?",
+                        "sign": false,
+                        "Chinese": "珍妮：你明天做什么？"
+                    },
+                    {
+                        "text": "PAULA: I’m going to the beach with my family for a week. We’re leaving early—at 6 a.m.",
+                        "sign": false,
+                        "Chinese": "葆拉：我要跟家人去海边待一周。我们走得很早——早上六点。"
+                    },
+                    {
+                        "text": "JENNY: Oh, nice! So I guess you’re planning to go to bed early tonight.",
+                        "sign": false,
+                        "Chinese": "珍妮：哦，不错！那你今晚大概打算早点睡。"
+                    },
+                    {
+                        "text": "PAULA: Yeah, I’m gonna pack my bag and try to hit the sack by nine o’clock.",
+                        "sign": false,
+                        "Chinese": "葆拉：对，我准备收拾行李，尽量九点前上床。"
+                    },
+                    {
+                        "text": "JENNY: Good luck with that! What are you taking?",
+                        "sign": false,
+                        "Chinese": "珍妮：祝你好运！你带什么？"
+                    },
+                    {
+                        "text": "PAULA: I always pack light for the beach—a bathing suit, a couple of pairs of shorts, some T-shirts, a hat, and lots of sunscreen. How about you? What are you doing next week?",
+                        "sign": false,
+                        "Chinese": "葆拉：去海边我一向轻装——泳衣、几条短裤、几件T恤、一顶帽子，还有大量防晒霜。你呢？下周做什么？"
+                    },
+                    {
+                        "text": "JENNY: I’m going to stay home and catch up on some unfinished projects.",
+                        "sign": false,
+                        "Chinese": "珍妮：我打算待在家，把一些没做完的事补上。"
+                    },
+                    {
+                        "text": "PAULA: Like what?",
+                        "sign": false,
+                        "Chinese": "葆拉：比如呢？"
+                    },
+                    {
+                        "text": "JENNY: Oh, I have a long list! First I’m going to clean up my office, pay bills, write letters, and take care of a bunch of paperwork. Then I’m going to redecorate my bedroom—paint the walls and get new curtains.",
+                        "sign": false,
+                        "Chinese": "珍妮：哦，我有一长串！先整理办公室、付账单、写信，再处理一堆文书。然后重新布置卧室——刷墙、换新窗帘。"
+                    },
+                    {
+                        "text": "PAULA: Wow. What color are you going to paint it?",
+                        "sign": false,
+                        "Chinese": "葆拉：哇。你打算刷什么颜色？"
+                    },
+                    {
+                        "text": "JENNY: It’s a very light blue. I’ve already picked it out and bought the paint.",
+                        "sign": false,
+                        "Chinese": "珍妮：很浅的蓝色。我已经选好了，漆也买了。"
+                    },
+                    {
+                        "text": "PAULA: Cool.",
+                        "sign": false,
+                        "Chinese": "葆拉：酷。"
+                    }
+                ]
+            },
+            {
+                "title": "Long-term plans",
+                "content": [
+                    {
+                        "text": "EMMA: What do you think you’ll do when you finish college?",
+                        "sign": false,
+                        "Chinese": "艾玛：你觉得大学毕业后会做什么？"
+                    },
+                    {
+                        "text": "KIM: Oh, I’ll probably stay in the city and look for work here. Then I’ll go back home on holidays.",
+                        "sign": false,
+                        "Chinese": "金：哦，我大概会留在这座城市找工作。然后假期再回家。"
+                    },
+                    {
+                        "text": "EMMA: I love that idea, but I’ll probably go closer to home to get a job. I like being close to my family and old friends. Still, life in the big city is certainly tempting!",
+                        "sign": false,
+                        "Chinese": "艾玛：这主意我喜欢，不过我大概会回家乡附近找工作。我喜欢靠近家人和老朋友。不过大城市的生活也确实诱人！"
+                    },
+                    {
+                        "text": "KIM: Well, maybe you could find a job in a big city closer to home.",
+                        "sign": false,
+                        "Chinese": "金：那或许你可以在离家更近的大城市找份工作。"
+                    },
+                    {
+                        "text": "EMMA: Yeah, that would be a good happy medium.",
+                        "sign": false,
+                        "Chinese": "艾玛：嗯，那会是个不错的折中。"
+                    },
+                    {
+                        "text": "KIM: On the other hand, since you like to travel, you could possibly get a job in another country—do something exotic.",
+                        "sign": false,
+                        "Chinese": "金：另一方面，既然你喜欢旅行，说不定还能去国外工作——做点特别的事。"
+                    },
+                    {
+                        "text": "EMMA: You’re right. I might get really bored just doing the same old thing. I’d learn a lot overseas—even pick up another language. It’s definitely something to think about.",
+                        "sign": false,
+                        "Chinese": "艾玛：你说得对。老做同一件事我可能会腻。在海外能学很多——甚至再学一门语言。这绝对值得考虑。"
+                    },
+                    {
+                        "text": "KIM: Well, I guess we don’t have to decide now, since we’re still in our freshman year!",
+                        "sign": false,
+                        "Chinese": "金：反正我们现在还不用决定，才大一呢！"
+                    }
+                ]
+            },
+            {
+                "title": "Predictions for the more distant future",
+                "content": [
+                    {
+                        "text": "TEACHER: What will the world be like fifty years from now?",
+                        "sign": false,
+                        "Chinese": "老师：五十年后世界会是什么样？"
+                    },
+                    {
+                        "text": "ANDY: Just think! People will be living on Mars.",
+                        "sign": false,
+                        "Chinese": "安迪：想想看！人们会住在火星上。"
+                    },
+                    {
+                        "text": "EMILY: I’ll bet cars will be replaced by little helicopters, so you’ll be able to fly ahead in traffic.",
+                        "sign": false,
+                        "Chinese": "艾米丽：我敢打赌汽车会被小型直升机取代，堵车时你还能飞到前面去。"
+                    },
+                    {
+                        "text": "HOLLY: There won’t be any more wars.",
+                        "sign": false,
+                        "Chinese": "霍莉：不会再有战争了。"
+                    },
+                    {
+                        "text": "JULIE: Women will make more money than men.",
+                        "sign": false,
+                        "Chinese": "朱莉：女人挣的会比男人多。"
+                    },
+                    {
+                        "text": "STACEY: No way! Women will stay home and the men will do all the work.",
+                        "sign": false,
+                        "Chinese": "斯泰西：才不会！女人待在家里，活儿全归男人干。"
+                    },
+                    {
+                        "text": "JOE: There will be a better form of government.",
+                        "sign": false,
+                        "Chinese": "乔：会有更好的政府形式。"
+                    },
+                    {
+                        "text": "ZACK: People will have forgotten how to talk and will only communicate electronically.",
+                        "sign": false,
+                        "Chinese": "扎克：人们会忘记怎么说话，只靠电子设备交流。"
+                    },
+                    {
+                        "text": "HEATHER: There won’t be any disease, and people will live to be 150 years old.",
+                        "sign": false,
+                        "Chinese": "希瑟：不会再有疾病，人能活到一百五十岁。"
+                    },
+                    {
+                        "text": "COURTNEY: That will be horrible. It will be so crowded!",
+                        "sign": false,
+                        "Chinese": "考特尼：那会很糟。会挤死人的！"
+                    },
+                    {
+                        "text": "ANDY: That’s why people will be living on Mars!",
+                        "sign": false,
+                        "Chinese": "安迪：所以人们才会住到火星上啊！"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Making a case or arguing a point",
+        "href": "making-a-case-or-arguing-a-point",
+        "conversation": [
+            {
+                "title": "Selecting a company officer",
+                "content": [
+                    {
+                        "text": "BOSS: I’ve called you here to talk about the selection of a new director for the Customer Service Department. As you know, so far there are only two candidates, Martha Francis and Juliette Welch. First, I’d like to hear your comments, both pro and con, about Martha’s qualifications for this position.",
+                        "sign": false,
+                        "Chinese": "老板：叫大家来，是想谈谈客服部新主管的人选。目前你们也知道，只有两位候选人：玛莎·弗朗西斯和朱丽叶·韦尔奇。先听听大家对玛莎胜任这个职位的看法，正反意见都欢迎。"
+                    },
+                    {
+                        "text": "IVANA: Well, I think Martha is the perfect person for this position. She’s been with the company for twenty years, so she knows the business inside out. She’s conservative and serious; plus she gets along with everybody.",
+                        "sign": false,
+                        "Chinese": "伊万娜：我觉得玛莎是这个职位的完美人选。她在公司干了二十年，业务门儿清。她稳重认真，跟谁都处得来。"
+                    },
+                    {
+                        "text": "APRIL: Yikes! In my opinion, if she becomes director, nothing will change. I mean, we wouldn’t see anything new—just the opposite—we’d keep on implementing the same programs as always.",
+                        "sign": false,
+                        "Chinese": "艾普丽：天哪！依我看，她要当上主管，什么都不会变。我说，我们看不到任何新东西——恰恰相反——还是老一套项目照旧执行。"
+                    },
+                    {
+                        "text": "KATIE: She isn’t known for thinking outside the box. What’s more, we’d start to see our current customer base fall off, simply because our competitors have enthusiastic new people and innovative programs. I’m just sayin’ . . .",
+                        "sign": false,
+                        "Chinese": "凯蒂：她可不算出了名的会跳出框框想问题。而且，我们现有客户群可能开始流失，就因为对手有热情的新人、有创新项目。我只是说说……"
+                    },
+                    {
+                        "text": "TIM: I have to agree with April and Katie on this one. In the first place, Martha is too conservative; plus she’d hardly inspire any enthusiasm among the employees.",
+                        "sign": false,
+                        "Chinese": "蒂姆：这回我得同意艾普丽和凯蒂。首先玛莎太保守；再说她也很难在员工里激起什么热情。"
+                    },
+                    {
+                        "text": "BOSS: Anybody else want to put their two cents in? OK. Then let’s talk about Juliette. What do you guys think?",
+                        "sign": false,
+                        "Chinese": "老板：还有谁想插两句？好。那我们谈谈朱丽叶。你们怎么看？"
+                    },
+                    {
+                        "text": "IVANA: Look, if Juliette gets this job, it will be a total disaster for the company. In the first place, her fancy degree isn’t worth squat because she has zero experience. Besides, we don’t even know her very well. Good grief, she’s only been here since March, and to top it all off, we all know that she was fired from her last job.",
+                        "sign": false,
+                        "Chinese": "伊万娜：听着，要是朱丽叶拿到这份工作，对公司绝对是场灾难。首先，她那花哨学位一文不值，因为她零经验。再说，我们甚至不怎么了解她。天哪，她三月才来，更糟的是，谁都知道她上一份工作是被炒的。"
+                    },
+                    {
+                        "text": "TIM: Really. I’ve heard that her coworkers think she’s a bit uppity, like she thinks she’s the queen of the office. She’s not exactly popular with the other employees. I don’t think they’d be happy with her as the boss.",
+                        "sign": false,
+                        "Chinese": "蒂姆：是啊。我听说同事觉得她有点自以为是，跟觉得自己是办公室女王似的。她在员工里并不怎么受欢迎。我觉得大家不会乐意她当老板。"
+                    },
+                    {
+                        "text": "STAN: Well, since I put her name up, I have to say that I see her as a very bright and competent person. Still, I recognize that she lacks experience. And now that you tell me that her personality could cause friction among the employees, then I’ll go along with your decision in this case.",
+                        "sign": false,
+                        "Chinese": "斯坦：既然是我提名她的，我得说，我看她很聪明、也很能干。不过我也承认她缺经验。既然你们说她的性格可能在员工间造成摩擦，那这次我服从你们的决定。"
+                    },
+                    {
+                        "text": "BOSS: Obviously, we haven’t found the ideal person to handle this job. We may have to look outside the company, which I don’t particularly want to do. We’ll meet here tomorrow at the same time. I’ll expect your suggestions—and they’d better be more promising!",
+                        "sign": false,
+                        "Chinese": "老板：显然我们还没找到理想人选。也许得从公司外面找，这我并不太情愿。明天同一时间在这儿再开。我等你们的建议——最好比这次靠谱！"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Narrating a story",
+        "href": "narrating-a-story",
+        "conversation": [
+            {
+                "title": "A traffic accident",
+                "content": [
+                    {
+                        "text": "JACK: Hey, buddy, what happened to you? Don’t tell me you broke your leg!",
+                        "sign": false,
+                        "Chinese": "杰克：嘿，哥们，你怎么了？别告诉我腿断了！"
+                    },
+                    {
+                        "text": "RAJ: No, it’s not that drastic. I just twisted my ankle. Still, it hurts a lot, and walking with these crutches is a pain in the neck.",
+                        "sign": false,
+                        "Chinese": "拉杰：没那么严重，只是扭了脚踝。不过还是很疼，拄这拐走路真烦人。"
+                    },
+                    {
+                        "text": "JACK: So when did it happen?",
+                        "sign": false,
+                        "Chinese": "杰克：什么时候的事？"
+                    },
+                    {
+                        "text": "RAJ: It was the night of the basketball championship. And the worst thing is that we lost the game and all hopes of winning our title back.",
+                        "sign": false,
+                        "Chinese": "拉杰：篮球冠军赛那天晚上。最惨的是我们输了，夺回冠军的希望也没了。"
+                    },
+                    {
+                        "text": "JACK: What a bummer! Sit down here for a minute and tell me all about it.",
+                        "sign": false,
+                        "Chinese": "杰克：太倒霉了！坐下来，跟我细细说说。"
+                    },
+                    {
+                        "text": "RAJ: Well, it all happened last Thursday. It was pouring down rain and also freezing. I was in a hurry to get to the gym early to chill out a bit before the game. I was all stressed out about the game when I left home, but I got in the car and started to drive toward the gym. All of a sudden my phone rang—it was my girlfriend. She was all excited about the game and wanted to wish me good luck. I started to get pumped up and ready for the game. My girlfriend and I kept on talking when I suddenly realized that the cars in front of me were stopped, and I was going a little fast. I slammed on the brakes, but it was too late. The street was wet, and I hit the car that was stopped in front of me. That hard braking caused me to twist my ankle. I could hardly get out of the car to talk to the other driver because my ankle hurt so much. To tell you the truth, I was so freaked out I didn’t know what to do. I was thinking about the game, my girlfriend, my teammates—it never occurred to me that I wouldn’t be able to play that night. Finally a cop came and made me sign some papers; then an ambulance took me to the hospital. They took some X-rays to see if my ankle was broken or not. Thank goodness it wasn’t broken, but the upshot was that I wasn’t going to play basketball that night. And now I’m stuck with these crutches.",
+                        "sign": false,
+                        "Chinese": "拉杰：事情发生在上周四。那天又下着倾盆大雨，还冷得要命。我急着早点到体育馆，想赛前放松一下。出门时我已经为比赛紧张得不行，但还是上车往体育馆开。突然手机响了——是女朋友。她为比赛兴奋极了，打电话祝我好运。我开始热血沸腾，准备好上场。我们还在电话里聊着，我忽然意识到前面的车都停了，而我开得有点快。我猛踩刹车，但已经晚了。路面湿滑，我撞上了停在前面的车。那一下急刹扭到了我的脚踝。脚踝太疼，我几乎下不了车去跟对方司机说话。说实话，我当时慌得不行，不知道该怎么办。满脑子是比赛、女朋友、队友——压根没想到那天晚上我可能打不了。后来警察来了，让我签了些文件；救护车把我送去医院。拍了X光看脚踝断没断。谢天谢地没断，可结果是那天晚上我上不了场。现在就只能拖着这两根拐了。"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Retelling a conversation",
+        "href": "retelling-a-conversation",
+        "conversation": [
+            {
+                "title": "In the present tense",
+                "content": [
+                    {
+                        "text": "MIKE: Hey dude, what’s up? I hear you have a new job. How’s it going?",
+                        "sign": false,
+                        "Chinese": "迈克：嘿哥们，最近怎么样？听说你找了新工作。还顺利吗？"
+                    },
+                    {
+                        "text": "ADAM: Pretty well, so far. I have a lot to learn, but the people are nice, and there’s not too much pressure.",
+                        "sign": false,
+                        "Chinese": "亚当：到目前为止还不错。要学的很多，不过人很好，压力也不算太大。"
+                    },
+                    {
+                        "text": "MIKE: What do you do?",
+                        "sign": false,
+                        "Chinese": "迈克：你具体做什么？"
+                    },
+                    {
+                        "text": "ADAM: Basically, I’m learning the ropes of management, studying the history of the company so I know how everything works.",
+                        "sign": false,
+                        "Chinese": "亚当：基本上是在学管理门道，研究公司历史，好弄清一切怎么运转。"
+                    },
+                    {
+                        "text": "MIKE: That’s great! I hope it all works out for you.",
+                        "sign": false,
+                        "Chinese": "迈克：太棒了！希望一切顺利。"
+                    },
+                    {
+                        "text": "MIKE (retelling the conversation): I asked Adam what was up and told him that I heard he had a new job. I asked him how it was going. He told me that it was going pretty well, so far. He said that he had a lot to learn but that the people were nice and that there wasn’t too much pressure. Then I asked him what he did. He answered that basically he was learning the ropes of management and studying the history of the company so that he knew how everything worked. Then I told him that that was great and that I hoped it worked out for him.",
+                        "sign": false,
+                        "Chinese": "迈克（转述对话）：我问亚当最近怎么样，跟他说我听说他找了新工作。我问他进展如何。他说到目前为止还不错。他说要学的很多，不过人很好，压力也不算太大。然后我问他做什么。他回答说基本上是在学管理门道，研究公司历史，好弄清一切怎么运转。接着我说那太好了，希望一切顺利。"
+                    }
+                ]
+            },
+            {
+                "title": "In the present perfect tense",
+                "content": [
+                    {
+                        "text": "RENEE: Have you eaten yet?",
+                        "sign": false,
+                        "Chinese": "蕾妮：你吃过了吗？"
+                    },
+                    {
+                        "text": "EMILY: No, but I’ve already bought my lunch. Want to join me in the park?",
+                        "sign": false,
+                        "Chinese": "艾米丽：还没有，不过午饭已经买好了。要不要一起去公园？"
+                    },
+                    {
+                        "text": "RENEE: Thanks, but I’ve made a reservation for two at Kincaid’s Restaurant. Have you ever eaten there?",
+                        "sign": false,
+                        "Chinese": "蕾妮：谢谢，但我已经在金凯德餐厅订了两人位。你在那儿吃过吗？"
+                    },
+                    {
+                        "text": "EMILY: Yes, I’ve been there several times. It’s great!",
+                        "sign": false,
+                        "Chinese": "艾米丽：吃过，我去过好几次了。很棒！"
+                    },
+                    {
+                        "text": "RENEE (retelling the conversation): I asked Emily if she had eaten yet, and she told me that she had already bought her lunch. She asked me if I wanted to join her in the park, but I told her that I had made a reservation for two at Kincaid’s Restaurant. Then I asked her if she had ever eaten there, and she told me yes, that she had been there several times. She said it was great.",
+                        "sign": false,
+                        "Chinese": "蕾妮（转述对话）：我问艾米丽吃过没有，她说午饭已经买好了。她问我要不要一起去公园，我说已经在金凯德餐厅订了两人位。然后我问她有没有在那儿吃过，她说有，去过好几次了。她说那儿很棒。"
+                    }
+                ]
+            },
+            {
+                "title": "In the past tense",
+                "content": [
+                    {
+                        "text": "JASON: Where were you last night? We missed you at the party.",
+                        "sign": false,
+                        "Chinese": "杰森：你昨晚去哪儿了？派对上我们都想你了。"
+                    },
+                    {
+                        "text": "GINA: Oh, I had to go to my sister’s house. They called her from the hospital at the last minute and asked her to work the night shift, so I went over to babysit for her kids. I ended up spending the night at her place.",
+                        "sign": false,
+                        "Chinese": "吉娜：哦，我得去姐姐家。医院临时打电话叫她上夜班，所以我过去帮她看孩子。最后在她那儿过夜了。"
+                    },
+                    {
+                        "text": "JASON (retelling the conversation): I asked Gina where she had been the night before and told her that we had missed her at the party. She said that she had had to go to her sister’s house—that they had called her sister from the hospital at the last minute and had asked her to work the night shift, so she had gone over to babysit for her kids. She said she had ended up spending the night at her sister’s place.",
+                        "sign": false,
+                        "Chinese": "杰森（转述对话）：我问吉娜前一晚去哪儿了，并告诉她派对上我们想她了。她说她得去姐姐家——医院临时打电话叫她姐姐上夜班，所以她过去帮看孩子。她说最后在姐姐那儿过夜了。"
+                    },
+                    {
+                        "text": "Less formal:",
+                        "sign": true,
+                        "Chinese": "不太正式："
+                    },
+                    {
+                        "text": "JASON (retelling the conversation): I asked Gina where she was the night before and told her that we missed her at the party. She said that she had to go to her sister’s house—that they called her sister from the hospital at the last minute and asked her to work the night shift, so she went over to babysit for her kids. She said she ended up spending the night at her sister’s place.",
+                        "sign": false,
+                        "Chinese": "杰森（转述对话）：我问吉娜前一晚在哪儿，并告诉她派对上我们想她了。她说她得去姐姐家——医院临时打电话叫她姐姐上夜班，所以她过去帮看孩子。她说最后在姐姐那儿过夜了。"
+                    }
+                ]
+            },
+            {
+                "title": "In future tenses",
+                "content": [
+                    {
+                        "text": "BEN: Hi, Jeremy. What are you guys doing tonight? I’m kind of at a loose end since I broke up with Sydney.",
+                        "sign": false,
+                        "Chinese": "本：嗨，杰里米。你们今晚干什么？跟悉尼分手后，我有点闲得发慌。"
+                    },
+                    {
+                        "text": "JEREMY: Join us, then—we’re going to hang out downtown—probably go to several places. Are you up for that?",
+                        "sign": false,
+                        "Chinese": "杰里米：那就跟我们一起——我们要去市中心逛逛——可能去好几个地方。你有兴趣吗？"
+                    },
+                    {
+                        "text": "BEN: Definitely. Where should I meet you? Better still, can you give me a ride?",
+                        "sign": false,
+                        "Chinese": "本：当然。我在哪儿跟你们会合？更好的是，你能捎我一程吗？"
+                    },
+                    {
+                        "text": "JEREMY: Glad to. I’ll pick you up at your place at 9:30. OK?",
+                        "sign": false,
+                        "Chinese": "杰里米：乐意。九点半我去你家接你，行吗？"
+                    },
+                    {
+                        "text": "BEN: Perfect. I’ll look out for you.",
+                        "sign": false,
+                        "Chinese": "本：完美。我会在门口等你。"
+                    },
+                    {
+                        "text": "BEN (retelling the conversation): I said hi to Jeremy and asked him what he and the other guys were doing that night. I told him that I had been kind of at a loose end ever since I broke up with Sydney. He told me to join them and said that they were going to hang out downtown—probably go to several places. He asked me if I was up for that. I said that I definitely was and asked him where I should meet them. Then I told him that it would be even better if he could give me a ride. He said he would be glad to and told me that he would pick me up at my place at 9:30. He asked me if that would be OK. I said that it would be perfect and that I would look out for him.",
+                        "sign": false,
+                        "Chinese": "本（转述对话）：我跟杰里米打了招呼，问他和其他人当晚干什么。我告诉他，跟悉尼分手后我一直有点闲得发慌。他让我一起去，说他们要去市中心逛逛——可能去好几个地方。他问我有没有兴趣。我说当然有，并问该在哪儿会合。接着我说要是能捎我一程就更好了。他说乐意，九点半去我家接我。他问这样行不行。我说完美，我会在门口等他。"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Talking about controversial issues",
+        "href": "talking-about-controversial-issues",
+        "conversation": [
+            {
+                "title": "Living with a vegan daughter",
+                "content": [
+                    {
+                        "text": "MIGUEL: Say, John, I heard that your daughter has decided to follow a strictly vegan diet. How do you feel about this?",
+                        "sign": false,
+                        "Chinese": "米格尔：哎，约翰，听说你女儿决定严格吃纯素。你怎么看？"
+                    },
+                    {
+                        "text": "JOHN: Well, I was upset about it at first, but she’s fourteen now, and feels strongly about not wanting to cause harm to animals. She’s a real animal lover—she’s even thinking about studying to be a veterinarian one day. She believes that animals love life and fear death.",
+                        "sign": false,
+                        "Chinese": "约翰：一开始我挺烦的，但她现在十四岁了，很坚定地不想伤害动物。她是真正爱动物的人——甚至想过将来学兽医。她觉得动物也热爱生命、害怕死亡。"
+                    },
+                    {
+                        "text": "MIGUEL: But isn’t it true that vegans don’t eat dairy or other animal products either? I don’t see how using their products hurts the animals.",
+                        "sign": false,
+                        "Chinese": "米格尔：可纯素也不吃奶制品和其他动物产品，对吧？我看不出用这些产品怎么会伤害动物。"
+                    },
+                    {
+                        "text": "JOHN: She maintains that the egg and dairy industries cause immense suffering and death as well.",
+                        "sign": false,
+                        "Chinese": "约翰：她坚持认为蛋类和乳制品行业同样会造成巨大的苦难和死亡。"
+                    },
+                    {
+                        "text": "MIGUEL: But aren’t you worried that she’s not getting enough protein and calcium?",
+                        "sign": false,
+                        "Chinese": "米格尔：可你不担心她蛋白质和钙不够吗？"
+                    },
+                    {
+                        "text": "JOHN: To be sure, it’s a challenge. She spends a lot of time reading labels and looking for plant-based solutions for all the nutrients she needs. It does seem unnatural to a lot of people in our society. But she’s serious about this, and I support her.",
+                        "sign": false,
+                        "Chinese": "约翰：确实是个挑战。她花很多时间看标签，找植物性方案来补齐所需营养。在我们这个社会，很多人会觉得不自然。但她很认真，我也支持她。"
+                    },
+                    {
+                        "text": "MIGUEL: How does this affect the rest of the family? It seems unfortunate to me if the other kids feel guilty about having pizza—or a birthday cake!",
+                        "sign": false,
+                        "Chinese": "米格尔：这对家里其他人有什么影响？要是别的孩子吃披萨——或者生日蛋糕——就觉得内疚，我觉得挺遗憾的！"
+                    },
+                    {
+                        "text": "JOHN: If that happens, we will do everything we can to put a stop to it. Since this is her personal decision, she is the only one who should suffer—or benefit from—the consequences.",
+                        "sign": false,
+                        "Chinese": "约翰：要是真那样，我们会尽一切办法制止。既然这是她个人的决定，只有她该承担——或享受——后果。"
+                    },
+                    {
+                        "text": "MIGUEL: How would you feel if she stopped going to parties—or even if her friends stopped inviting her to join them—because she can’t eat what’s being served?",
+                        "sign": false,
+                        "Chinese": "米格尔：要是她因此不去派对——甚至朋友也不再邀请她——因为她吃不了端上来的东西，你会怎么想？"
+                    },
+                    {
+                        "text": "JOHN: If that happened, of course I would be upset; I would find out how she feels about it, and also point out the social consequences to her. Then we could hopefully come up with a solution. I wouldn’t mind inviting all her friends over—and serving them traditional food! But we could also include ‘tastes’ of vegan food to show them that it’s not really scary.",
+                        "sign": false,
+                        "Chinese": "约翰：要是那样，我当然会难过；我会了解她的感受，也指出这对社交的影响。然后我们希望能一起想出办法。我不介意把她朋友都请到家里来——还照常端传统食物！不过也可以准备一点纯素“试吃”，让他们知道其实没那么可怕。"
+                    },
+                    {
+                        "text": "MIGUEL: I can’t believe that you are allowing your own daughter to follow this drastic diet! If I were you, I would encourage her to wait until she’s at least eighteen.",
+                        "sign": false,
+                        "Chinese": "米格尔：真不敢相信你居然允许自己女儿吃这么极端的饮食！换作是我，我会劝她至少等到十八岁再说。"
+                    },
+                    {
+                        "text": "JOHN: Well, we do believe that eating vegetables is good for your health, and we’re passionate about protecting the environment, too. Keep in mind that veganism is becoming more and more popular everywhere and there is scientific evidence that it can improve your health. Plus, there are more and more vegan products on the market every day.",
+                        "sign": false,
+                        "Chinese": "约翰：我们确实相信吃蔬菜有益健康，也很热衷保护环境。别忘了，纯素饮食到处都越来越流行，也有科学证据表明它能改善健康。再说，市面上的纯素产品每天都在增多。"
+                    }
+                ]
+            }
+        ]
+    }
+]

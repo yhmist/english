@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Practice Makes Perfect</title>
+  <meta name="description" content="English Conversation" />
+  <script>
+    // Restore deep-link after GitHub Pages 404.html bounce.
+    (function () {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+    window.APP_BASE = location.hostname.endsWith('github.io')
+      ? '/' + (location.pathname.split('/').filter(Boolean)[0] || '')
+      : '';
+    document.write('<link rel="stylesheet" href="' + window.APP_BASE + '/css/style.css" />');
+  </script>
+</head>
+<body>
+  <header class="header">
+    <button
+      id="menu-btn"
+      type="button"
+      class="menu-btn"
+      aria-label="Toggle catalogue"
+      aria-expanded="false"
+    >
+      <svg id="icon-menu" width="1.33em" height="1.33em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <svg id="icon-close" class="hidden" xmlns="http://www.w3.org/2000/svg" width="1.33em" height="1.33em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <a href="/" class="title" id="home-link">Practice Makes Perfect: English Conversation</a>
+  </header>
+
+  <div class="layout">
+    <nav id="catalogue" class="catalogue" aria-label="Catalogue"></nav>
+    <main id="content" class="content"></main>
+  </div>
+
+  <audio id="audio" class="audio" controls></audio>
+
+  <div id="word-popup" class="word-popup hidden" role="dialog" aria-live="polite">
+    <div class="word-popup-word" id="word-popup-word"></div>
+    <div class="word-popup-zh" id="word-popup-zh">加载中…</div>
+  </div>
+
+  <script>
+    document.write('<script src="' + window.APP_BASE + '/js/app.js"><\/script>');
+  </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting…</title>
+  <script>
+    // GitHub Pages: serve SPA for client-side routes.
+    sessionStorage.redirect = location.href;
+    var parts = location.pathname.split('/').filter(Boolean);
+    var base = parts.length ? '/' + parts[0] + '/' : '/';
+    location.replace(base);
+  </script>
+</head>
+<body></body>
+</html>
