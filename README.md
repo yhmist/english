@@ -12,7 +12,7 @@ npm start
 
 1. Repo Settings → Pages → Source: **Deploy from a branch**
 2. Branch: `main` / root (`/`)
-3. Site URL: `https://yhmist.github.io/yuanhm/`
+3. Site URL: `https://yhmist.github.io/english/`
 
 ## Structure
 

@@ -1,4 +1,5 @@
 {
+  "name": "english",
   "private": true,
   "scripts": {
     "start": "npx --yes serve -s ."
