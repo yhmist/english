@@ -16,6 +16,7 @@ function url(path) {
 const catalogueEl = document.getElementById('catalogue');
 const contentEl = document.getElementById('content');
 const audioEl = document.getElementById('audio');
+const audioDock = document.getElementById('audio-dock');
 const menuBtn = document.getElementById('menu-btn');
 const iconMenu = document.getElementById('icon-menu');
 const iconClose = document.getElementById('icon-close');
@@ -27,6 +28,9 @@ const popupZhEl = document.getElementById('word-popup-zh');
 let corpus = [];
 let timings = {};
 let usVoice = null;
+let currentAudioTitle = null;
+let activeWordEl = null;
+let highlightRaf = null;
 const translationCache = new Map();
 
 function stripBase(pathname) {
@@ -44,6 +48,45 @@ function getSlugFromPath() {
 
 function findChapter(slug) {
   return corpus.find((c) => c.href === slug) ?? corpus[0];
+}
+
+/** Keep words in increasing order without rewriting real Whisper times. */
+function sanitizeLineWords(wordStarts) {
+  if (!Array.isArray(wordStarts) || !wordStarts.length) return [];
+  const out = wordStarts.map((t) => Number(t));
+  for (let i = 1; i < out.length; i++) {
+    if (!Number.isFinite(out[i])) out[i] = out[i - 1] + 0.04;
+    if (out[i] < out[i - 1]) out[i] = out[i - 1] + 0.03;
+  }
+  return out;
+}
+
+function normalizeTimings(rawMap) {
+  const out = {};
+  for (const [title, raw] of Object.entries(rawMap || {})) {
+    if (Array.isArray(raw)) {
+      out[title] = { sentences: raw, words: [] };
+      continue;
+    }
+    const sentences = Array.isArray(raw?.sentences) ? raw.sentences : [];
+    const words = Array.isArray(raw?.words) ? raw.words : [];
+    out[title] = {
+      sentences,
+      words: words.map((lineWords) =>
+        sanitizeLineWords(Array.isArray(lineWords) ? lineWords : [])
+      ),
+    };
+  }
+  return out;
+}
+
+function getTiming(title) {
+  const raw = timings[title];
+  if (!raw) return { sentences: [], words: [] };
+  return {
+    sentences: Array.isArray(raw.sentences) ? raw.sentences : [],
+    words: Array.isArray(raw.words) ? raw.words : [],
+  };
 }
 
 function loadVoices() {
@@ -128,23 +171,32 @@ async function onWordClick(event, word) {
   }
 }
 
+/** Same as whisper_word_align.strip_speaker: "MIKE:" / "MIKE (retelling…):" are labels only. */
+const SPEAKER_LABEL_RE = /^[A-Z][A-Za-z.]+(?:\s*\([^)]*\))?:\s*/;
+
+function stripSpeakerLabel(text) {
+  return text.replace(SPEAKER_LABEL_RE, '');
+}
+
 function renderEnglishLine(text) {
   const p = document.createElement('p');
   p.className = 'en';
 
-  const speakerMatch = text.match(/^([A-Z][A-Za-z. ]{0,30}?):\s*/);
+  const speakerMatch = text.match(SPEAKER_LABEL_RE);
   let rest = text;
   if (speakerMatch) {
     const speaker = document.createElement('span');
     speaker.className = 'speaker';
     speaker.textContent = speakerMatch[0];
     p.appendChild(speaker);
-    rest = text.slice(speakerMatch[0].length);
+    rest = stripSpeakerLabel(text);
   }
 
-  for (const part of rest.split(/([a-zA-Z]+(?:['’][a-zA-Z]+)?)/)) {
+  // Timed/highlight tokens only — must match whisper_word_align.extract_words
+  // (digits so "9:30" -> spans for 9 and 30; speaker labels never tokenized)
+  for (const part of rest.split(/([A-Za-z]+(?:['’][A-Za-z]+)?|\d+)/)) {
     if (!part) continue;
-    if (/^[a-zA-Z]/.test(part)) {
+    if (/^[A-Za-z0-9]/.test(part)) {
       const span = document.createElement('span');
       span.className = 'word';
       span.textContent = part;
@@ -158,21 +210,62 @@ function renderEnglishLine(text) {
   return p;
 }
 
+const SEEK_LEAD = 0.05;
+/** While set, highlight sticks to this line until the audio seek lands. */
+let pendingSeek = null;
+
 function ensureAudio(title) {
   const path = url(`/pmp_audios/${title}.mp3`);
   if (audioEl.getAttribute('src') !== path) audioEl.src = path;
-  audioEl.classList.add('visible');
+  currentAudioTitle = title;
+  audioDock.classList.add('visible');
+}
+
+function getLineEls(title) {
+  const section = contentEl.querySelector(`.lines[data-title="${CSS.escape(title)}"]`);
+  if (!section) return [];
+  return [...section.querySelectorAll('.line')];
+}
+
+function paintHighlight(title, lineIdx, wordIdx) {
+  const lineEls = getLineEls(title);
+  if (lineIdx < 0 || lineIdx >= lineEls.length) return;
+
+  const lineEl = lineEls[lineIdx];
+  contentEl.querySelectorAll('.line.active').forEach((el) => {
+    if (el !== lineEl) el.classList.remove('active');
+  });
+  lineEl.classList.add('active');
+
+  const wordEls = [...lineEl.querySelectorAll('.word')];
+  let nextWord = null;
+  if (wordIdx >= 0 && wordIdx < wordEls.length) nextWord = wordEls[wordIdx];
+  else if (wordEls.length) nextWord = wordEls[0];
+
+  if (activeWordEl !== nextWord) {
+    if (activeWordEl) activeWordEl.classList.remove('current');
+    activeWordEl = nextWord;
+    if (activeWordEl) {
+      activeWordEl.classList.add('current');
+      const rect = activeWordEl.getBoundingClientRect();
+      if (rect.top < 80 || rect.bottom > window.innerHeight - 110) {
+        activeWordEl.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      }
+    }
+  }
 }
 
 function seekToSentence(title, index) {
   if ('speechSynthesis' in window) speechSynthesis.cancel();
   ensureAudio(title);
 
-  const starts = timings[title];
-  const start =
-    Array.isArray(starts) && Number.isFinite(starts[index])
-      ? Math.max(0, starts[index] - 0.05)
-      : 0;
+  const { sentences } = getTiming(title);
+  const start = Number.isFinite(sentences[index]) ? Math.max(0, sentences[index] - SEEK_LEAD) : 0;
+
+  // Lock highlight to the clicked line immediately — currentTime updates asynchronously,
+  // so syncing right after assignment still reads the old position (previous line end).
+  pendingSeek = { title, lineIdx: index };
+  paintHighlight(title, index, 0);
 
   const doSeek = () => {
     if (!Number.isFinite(audioEl.duration) || audioEl.duration <= 0) return;
@@ -182,6 +275,85 @@ function seekToSentence(title, index) {
 
   if (Number.isFinite(audioEl.duration) && audioEl.duration > 0) doSeek();
   else audioEl.addEventListener('loadedmetadata', doSeek, { once: true });
+}
+
+function clearHighlight() {
+  pendingSeek = null;
+  if (activeWordEl) {
+    activeWordEl.classList.remove('current');
+    activeWordEl = null;
+  }
+  contentEl.querySelectorAll('.line.active').forEach((el) => el.classList.remove('active'));
+}
+
+function findActiveIndices(t, sentences, words) {
+  let lineIdx = -1;
+  for (let i = 0; i < sentences.length; i++) {
+    if (t + SEEK_LEAD >= sentences[i]) lineIdx = i;
+    else break;
+  }
+  if (lineIdx < 0) return { lineIdx: -1, wordIdx: -1 };
+
+  // Prefer the line whose word range actually covers t (handles imperfect sentence stamps).
+  for (let i = 0; i < words.length; i++) {
+    const lw = words[i] || [];
+    if (!lw.length) continue;
+    const nextSent = sentences[i + 1];
+    const end = Number.isFinite(nextSent) ? nextSent : lw[lw.length - 1] + 0.4;
+    if (t + 0.02 >= lw[0] && t < end + 0.02) lineIdx = i;
+  }
+
+  const lineWords = words[lineIdx] || [];
+  let wordIdx = -1;
+  for (let i = 0; i < lineWords.length; i++) {
+    if (t + 0.02 >= lineWords[i]) wordIdx = i;
+    else break;
+  }
+  if (wordIdx < 0 && lineWords.length) wordIdx = 0;
+  return { lineIdx, wordIdx };
+}
+
+function syncHighlight() {
+  if (!currentAudioTitle) return;
+
+  if (pendingSeek && pendingSeek.title === currentAudioTitle) {
+    paintHighlight(pendingSeek.title, pendingSeek.lineIdx, 0);
+    return;
+  }
+
+  const { sentences, words } = getTiming(currentAudioTitle);
+  const { lineIdx, wordIdx } = findActiveIndices(audioEl.currentTime, sentences, words);
+
+  if (lineIdx < 0) {
+    if (activeWordEl) {
+      activeWordEl.classList.remove('current');
+      activeWordEl = null;
+    }
+    contentEl.querySelectorAll('.line.active').forEach((el) => el.classList.remove('active'));
+    return;
+  }
+
+  paintHighlight(currentAudioTitle, lineIdx, wordIdx);
+}
+
+function startHighlightLoop() {
+  if (highlightRaf != null) return;
+  const tick = () => {
+    syncHighlight();
+    if (!audioEl.paused && !audioEl.ended) {
+      highlightRaf = requestAnimationFrame(tick);
+    } else {
+      highlightRaf = null;
+    }
+  };
+  highlightRaf = requestAnimationFrame(tick);
+}
+
+function stopHighlightLoop() {
+  if (highlightRaf != null) {
+    cancelAnimationFrame(highlightRaf);
+    highlightRaf = null;
+  }
 }
 
 function setActiveLine(lineEl) {
@@ -220,9 +392,26 @@ function renderCatalogue(activeSlug) {
 }
 
 function renderContent(chapter) {
+  clearHighlight();
   const frag = document.createDocumentFragment();
 
+  const chapterTitle = document.createElement('h1');
+  chapterTitle.className = 'chapter-title';
+  chapterTitle.textContent = chapter.topic;
+
+  const hint = document.createElement('p');
+  hint.className = 'chapter-hint';
+  hint.textContent = '点击句子跟读跳转 · 点击单词查词发音';
+
+  frag.append(chapterTitle, hint);
+
   for (const { title, content } of chapter.conversation) {
+    const section = document.createElement('section');
+    section.className = 'dialogue';
+
+    const head = document.createElement('div');
+    head.className = 'dialogue-head';
+
     const playBtn = document.createElement('button');
     playBtn.type = 'button';
     playBtn.className = 'play-btn';
@@ -234,12 +423,15 @@ function renderContent(chapter) {
       audioEl.play().catch(() => {});
     });
 
-    const sectionTitle = document.createElement('div');
+    const sectionTitle = document.createElement('h2');
     sectionTitle.className = 'section-title';
     sectionTitle.textContent = title;
 
+    head.append(playBtn, sectionTitle);
+
     const lines = document.createElement('div');
     lines.className = 'lines';
+    lines.dataset.title = title;
 
     let lineIndex = 0;
     for (const item of content) {
@@ -270,7 +462,8 @@ function renderContent(chapter) {
       lines.appendChild(div);
     }
 
-    frag.append(playBtn, sectionTitle, lines);
+    section.append(head, lines);
+    frag.appendChild(section);
   }
 
   contentEl.replaceChildren(frag);
@@ -327,13 +520,28 @@ document.addEventListener('keydown', (event) => {
   else audioEl.pause();
 });
 
+audioEl.addEventListener('seeked', () => {
+  pendingSeek = null;
+  syncHighlight();
+});
+audioEl.addEventListener('play', startHighlightLoop);
+audioEl.addEventListener('pause', () => {
+  stopHighlightLoop();
+  if (pendingSeek) return;
+  clearHighlight();
+});
+audioEl.addEventListener('ended', () => {
+  stopHighlightLoop();
+  clearHighlight();
+});
+
 async function init() {
   const [corpusRes, timingsRes] = await Promise.all([
     fetch(url('/data/corpus.json')),
     fetch(url('/data/timings.json')),
   ]);
   corpus = await corpusRes.json();
-  timings = timingsRes.ok ? await timingsRes.json() : {};
+  timings = normalizeTimings(timingsRes.ok ? await timingsRes.json() : {});
   render();
 }
 

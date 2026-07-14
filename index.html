@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Practice Makes Perfect</title>
   <meta name="description" content="English Conversation" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Noto+Sans+SC:wght@400;500&family=Outfit:wght@500;600&display=swap"
+    rel="stylesheet"
+  />
   <script>
     // Restore deep-link after GitHub Pages 404.html bounce.
     (function () {
@@ -29,17 +35,17 @@
       aria-label="Toggle catalogue"
       aria-expanded="false"
     >
-      <svg id="icon-menu" width="1.33em" height="1.33em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <svg id="icon-menu" width="1.25em" height="1.25em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <line x1="3" y1="12" x2="21" y2="12"></line>
         <line x1="3" y1="6" x2="21" y2="6"></line>
         <line x1="3" y1="18" x2="21" y2="18"></line>
       </svg>
-      <svg id="icon-close" class="hidden" xmlns="http://www.w3.org/2000/svg" width="1.33em" height="1.33em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg id="icon-close" class="hidden" xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <line x1="18" y1="6" x2="6" y2="18"></line>
         <line x1="6" y1="6" x2="18" y2="18"></line>
       </svg>
     </button>
-    <a href="/" class="title" id="home-link">Practice Makes Perfect: English Conversation</a>
+    <a href="/" class="title" id="home-link">Practice Makes Perfect</a>
   </header>
 
   <div class="layout">
@@ -47,7 +53,9 @@
     <main id="content" class="content"></main>
   </div>
 
-  <audio id="audio" class="audio" controls></audio>
+  <div id="audio-dock" class="audio-dock" aria-label="Audio player">
+    <audio id="audio" class="audio" controls></audio>
+  </div>
 
   <div id="word-popup" class="word-popup hidden" role="dialog" aria-live="polite">
     <div class="word-popup-word" id="word-popup-word"></div>

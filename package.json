@@ -2,6 +2,7 @@
   "name": "english",
   "private": true,
   "scripts": {
-    "start": "npx --yes serve -s ."
+    "start": "npx --yes serve -s .",
+    "align": "python scripts/whisper_word_align.py"
   }
 }
